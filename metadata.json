@@ -1,0 +1,6 @@
+{
+  "name": "Informasi Menu MBG - SPPG Wonomulyo Sidodadi",
+  "description": "Informasi menu dan kandungan gizi Program Makan Bergizi Gratis (MBG) dari SPPG Polewali Mandar Wonomulyo Sidodadi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

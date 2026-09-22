@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@media print {
+  body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Hide everything on the page except the printable area when printing from print modal */
+  body.printing-label #root > main,
+  body.printing-label header,
+  body.printing-label .print\\:hidden,
+  .print\\:hidden {
+    display: none !important;
+  }
+
+  #printable-label-area {
+    display: grid !important;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
